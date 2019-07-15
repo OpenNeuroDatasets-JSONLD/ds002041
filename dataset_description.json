@@ -1,0 +1,16 @@
+{
+    "BIDSVersion": "1.0.0",
+    "License": "PDDL",
+    "Name": "Mesolimbic dopamine D2 receptors and neural representations of subjective value",
+    "Authors": [
+        "Jaime J. Castrellon",
+        "Jacob S. Young",
+        "Linh C. Dang",
+        "Ronald L. Cowan",
+        "David H. Zald",
+        "Gregory R. Samanez-Larkin"
+    ],
+    "Funding": [
+        "NIH R21-DA033611"
+    ]
+}
