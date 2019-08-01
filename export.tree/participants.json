@@ -1,0 +1,30 @@
+{
+    "age": {
+        "Description": "Participant age in years"
+    },
+    "sex": {
+        "Description": "Participant sex",
+        "Levels": {
+            "F": "Female",
+            "M": "Male"
+        }
+    },
+	"yrs_edu": {
+		"Description": "Participant self-identified number of years of education"
+	},
+	"race_ethnicity": {
+		"Description": "Participant self-identified race/ethnicity"
+	},
+	"fmri_scan_date": {
+		"Description": "Date of participant fMRI scan"
+	},
+	"pet_scan_date": {
+		"Description": "Date of participant PET scan"
+	},
+	"scan_date_difference": {
+		"Description": "Difference in days between participant fMRI scan and PET scan"
+	},
+    "fallypride_injected_dose_specific_activity": {
+        "Description": "Participant PET [18F]fallypride injected dose specific activity in units of mCi"
+    }
+}
