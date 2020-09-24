@@ -8,7 +8,7 @@
 			"Name": "[18F]fallypride",
 			"Isotope": "[18F]",
 			"MW": 363.457,
-			"InjectionType": "bolus",
+			"InjectionType": "bolus"
 		},
 		"SliceThickness": 3.27,
 		"ReconMatrixPE": 128,
