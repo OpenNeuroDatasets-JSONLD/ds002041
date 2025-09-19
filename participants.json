@@ -6,15 +6,16 @@
                 "TermURL": "nb:Age",
                 "Label": ""
             },
-            "Transformation": {
-                "TermURL": "nb:FromInt",
-                "Label": "integer data"
-            },
             "MissingValues": [
                 "",
                 "n/a",
                 " "
-            ]
+            ],
+            "Format": {
+                "TermURL": "nb:FromInt",
+                "Label": "integer data"
+            },
+            "VariableType": "Continuous"
         }
     },
     "sex": {
@@ -37,7 +38,8 @@
                     "TermURL": "snomed:248153007",
                     "Label": ""
                 }
-            }
+            },
+            "VariableType": "Categorical"
         }
     },
     "yrs_edu": {
@@ -284,7 +286,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-actual_p": {
@@ -297,7 +300,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-actual_lap": {
@@ -310,7 +314,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-actual_la": {
@@ -323,7 +328,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-actual_lan": {
@@ -336,7 +342,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-actual_n": {
@@ -349,7 +356,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-actual_han": {
@@ -362,7 +370,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-actual_ha": {
@@ -375,7 +384,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-ideal_hap": {
@@ -388,7 +398,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-ideal_p": {
@@ -401,7 +412,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-ideal_lap": {
@@ -414,7 +426,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-ideal_la": {
@@ -427,7 +440,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-ideal_lan": {
@@ -440,7 +454,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-ideal_n": {
@@ -453,7 +468,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-ideal_han": {
@@ -466,7 +482,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "panas-ideal_ha": {
@@ -479,7 +496,8 @@
             "IsPartOf": {
                 "TermURL": "snomed:304755000",
                 "Label": ""
-            }
+            },
+            "VariableType": "Collection"
         }
     },
     "participant_id": {
@@ -488,7 +506,7 @@
                 "TermURL": "nb:ParticipantID",
                 "Label": ""
             },
-            "Identifies": "participant"
+            "VariableType": "Identifier"
         },
         "Description": "There should have been a description here, but there wasn't. :("
     }
